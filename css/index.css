@@ -603,4 +603,10 @@ footer .footerRight p {
 		width: 12px;
 		margin-top: 3px;
 	}
+	.student {
+		width: 100%;
+	}
+	.student>div{
+		padding: 0;
+	}
 }
