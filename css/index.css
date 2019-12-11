@@ -4,7 +4,15 @@ ul {
 	margin: 0;
 	padding: 0;
 }
-
+a:hover{
+	text-decoration: none;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
 header {
 	width: 100%;
 	background-color: #3d3d3d;
@@ -576,20 +584,20 @@ footer .footerRight p {
 	display: none;
 	transition: all 0.3s;
 }
-.entraining  section .pbox:hover{
+.entraining  section div:hover .pbox{
 	background-color: #ee2a28;
 	transition: all 0.3s;
 }
-.entraining  section .pbox:hover h3{
+.entraining  section div:hover h3{
 	color: #FFFFFF;
 	font-size: 20px;
 	transition: all 0.3s;
 }
-.entraining  section .pbox:hover p{
+.entraining  section div:hover p{
 	color: #FFFFFF;
 	transition: all 0.3s;
 }
-.entraining  section .pbox:hover img{
+.entraining  section div:hover img{
 	display: block;
 	transition: all 0.3s;
 	
