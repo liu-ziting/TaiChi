@@ -28,7 +28,7 @@ header {
 
 .navbar .nav-item {
 	height: 50px;
-	width: 110px;
+	width: 95px;
 	text-align: center;
 }
 
@@ -477,9 +477,268 @@ footer .footerRight p {
 	text-align: center;
 	line-height: 30px;
 }
+.entraining {
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 35px;
+	margin-bottom: 85px;
+	position: relative;
+}
+.entraining .topheader{
+	background-color: #f5f5f5;
+	width: 100%;
+	height: auto;
+}
+.entraining .topheader ul li{
+	line-height: 55px;
+	float: left;
+	font-size: 16px;
+	color: #231f20;
+	padding: 0 20px;
+	cursor: pointer;
+}
+.entraining .topheader ul .active{
+	color: #ee2a28;
+}
+.entraining  section{
+	width: 110%;
+}
+.entraining  section > div{
+	margin-top: 42px;
+}
+.entraining  section > div:nth-child(3n+1) img{
+	float: left;
+}
+.entraining  section > div:nth-child(3n+1) .pbox{
+	float: left;
+}
+.entraining  section > div:nth-child(3n+1) p{
+	float: left;
+}
+.entraining  section > div:nth-child(3n) img{
+	float: right;
+}
+.entraining  section > div:nth-child(3n) .pbox{
+	float: right;
+}
+.entraining  section > div:nth-child(3n) p{
+	float: right;
+}
+.entraining  section .liimg{
+	overflow: hidden;
+}
+.entraining  section .liimg img{
+	display: block;
+	width: 335px;
+	height: 240px;
+	margin: 0 auto;
+	cursor: pointer;
+	object-fit: cover;
+	transition: all 0.3s;
+}
+.entraining  section .liimg:hover img{
+	opacity: 0.8;
+	transition: all 0.3s;
+}
+.entraining  section h3{
+	width: 335px;
+	font-size: 16px;
+	color: #6a6a6a;
+	text-align: center;
+	padding-top: 16px;
+	margin: 0 auto;
+}
+.entraining  section p{
+	width: 335px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #aaaaaa;
+	text-align: center;
+	margin-top: 5px;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+}
+.entraining  section .pbox{
+	width: 335px;
+	height: 76px;
+	margin: 0 auto;
+	cursor: pointer;
+	position: relative;
+	transition: all 0.3s;
+}
+.entraining  section .pbox img{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 23px;
+	right: 20px;
+	display: none;
+	transition: all 0.3s;
+}
+.entraining  section .pbox:hover{
+	background-color: #ee2a28;
+	transition: all 0.3s;
+}
+.entraining  section .pbox:hover h3{
+	color: #FFFFFF;
+	font-size: 20px;
+	transition: all 0.3s;
+}
+.entraining  section .pbox:hover p{
+	color: #FFFFFF;
+	transition: all 0.3s;
+}
+.entraining  section .pbox:hover img{
+	display: block;
+	transition: all 0.3s;
+	
+}
+.popup{
+	position:fixed;
+	left:0px;
+	top:0px;
+	background:rgba(0, 0, 0, 0.6);
+	width:100%; 
+	height:100%;
+	z-Index:999;  
+	display: none;
+}
+.popup section{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -250px;
+	margin-left: -250px;
+}
+.popup section div img{
+	width: 100%;
+	height: 100%;
+}
+.popup section .close{
+	position: absolute;
+	top: -16px;
+	right: -15px;
+	width: 30px;
+	cursor: pointer;
+	opacity: 1;
+}
+.character {	
+	width: 100%;	
+	padding: 0;	
+	margin: 0 auto;	
+	margin-top: 35px;	
+	margin-bottom: 85px;	
+}
+.character > div{
+	height: 368px;
+	width: 100%;
+	margin: 0 ;
+	padding: 0;
+}
+.character .bg{
+	background-color: #f5f5f5;
+	padding: 48px 45px 50px 45px;
+}
 
+.character > div img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: none;
+}
+.character > div h1{
+	font-size: 24px;
+	color: #231f20;
+	width: 100%;
+	text-align: right;
+	margin-bottom: 25px;
+}
+.character .textLeft h1{
+	text-align: left;
+}
+.character > div p{
+	font-size: 12px;
+	color: #6a6a6a;
+	line-height: 35px;
+}
 
+.preservation{
+	width: 100%;
+	padding: 0;	
+	margin: 0 auto;	
+	margin-top: 35px;	
+	margin-bottom: 85px;	
+}
+.preservation .leftImg{
+	width: 296px;
+	height: 200px;
+	margin-right: 36px;
+	float: left;
+	overflow: hidden;
+}
+.preservation > div{
+	padding: 0;
+	height: auto;
+	position: relative;
+	cursor: pointer;
+	margin: 30px 0;
+}
 
+.preservation .leftImg img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s;
+}
+.preservation  h1{
+	width: 200px;
+	font-size: 18px;
+	color: #231f20;
+	float: left;
+	font-weight: 600;
+	margin: 20px 0;
+}
+.preservation  p{
+	width: 200px;
+	font-size: 14px;
+	color: #6a6a6a;
+	float: left;
+	line-height: 25px;
+	letter-spacing: 1px;
+	-webkit-line-clamp: 3;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.preservation .arrows{
+	width: 82px;
+    height: 22px;
+    border: 1px solid #ababab;
+    position: absolute;
+    bottom: 25px;
+	right: 170px;
+	transition: all 1s;
+}
+.preservation .arrows img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 5px;
+	transition: all 0.8s;
+}
+.preservation > div:hover{
+	background-color: #f7f7f7;
+}
+.preservation > div:hover .arrows{
+	right: 60px;
+	transition: all 0.8s;
+}
+.preservation > div:hover .leftImg img{
+	transform: scale(1.1);
+	transition: all 0.3s;
+}
 @media (max-width: 1170px) {
 	.main {
 		width: 100%;
@@ -544,6 +803,24 @@ footer .footerRight p {
 	.contactus section {
 		width: 500px;
 		left: 10px;
+	}
+	.entraining  section > div:nth-child(3n+1) img{
+		float: inherit;
+	}
+	.entraining  section > div:nth-child(3n+1) .pbox{
+		float: inherit;
+	}
+	.entraining  section > div:nth-child(3n+1) p{
+		float: inherit;
+	}
+	.entraining  section > div:nth-child(3n) img{
+		float: inherit;
+	}
+	.entraining  section > div:nth-child(3n) .pbox{
+		float: inherit;
+	}
+	.entraining  section > div:nth-child(3n) p{
+		float: inherit;
 	}
 }
 
@@ -613,5 +890,48 @@ footer .footerRight p {
 	}
 	.student>div{
 		padding: 0;
+		margin-bottom: 20px;
+	}
+	.student > div:nth-child(odd){
+		padding-right: 10px;
+	}
+	.student > div:nth-child(even){
+		padding-left: 10px;
+	}
+	.student section .maskbox h3{
+		margin-top: 25px;
+	}
+	.student section .maskbox img{
+		margin: 10px auto;
+	}
+	.popup section{
+		width: 300px;
+		height: 300px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -150px;
+		margin-left: -150px;
+	}
+	.character > div{
+		height: auto;
+		margin: 10px 0;
+	}
+	.character > div img{
+		object-fit: inherit;
+	}
+	.preservation .arrows{
+		bottom: -20px;
+		left: 0;
+	}
+	.preservation .leftImg{
+		width: 100%;
+    	height: auto;
+	}
+	.preservation h1{
+		width: 100%;
+	}
+	.preservation p{
+		width: 100%;
 	}
 }
