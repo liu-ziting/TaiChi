@@ -548,6 +548,11 @@ footer .footerRight p {
 }
 
 @media (max-width: 768px) {
+	.banner img {
+	    width: 100%;
+	    object-fit: cover;
+	    height: 160px;
+	}
 	.crumbs .crumbsBox {
 		float: left;
 		margin-top: 20px;
