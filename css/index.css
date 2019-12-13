@@ -1066,8 +1066,54 @@ textarea::-ms-input-placeholder{ /*Internet Explorer*/
 
 .indexMain .characterBox{
 	width: 100%;
-	height: 688px;
-	background-color: #000000;
+	height: 690px;
+	background: url(../img/indexbbg.png) no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.indexMain .characterBox section{
+	width: 1000px;
+	height: 350px;
+	margin: 0 auto;
+	padding: 0;
+}
+.indexMain .characterBox .textBox{
+	/*position: absolute;*/
+	width: 100%;
+	background-color: #FFFFFF;
+	font-size: 16px;
+	color: #616161;
+	text-align: center;
+	line-height: 60px;
+	letter-spacing: 2px;
+	height: 60px;
+}
+.indexMain .characterBox section > div:hover .imgbox img{
+	transform: scale(1);
+	transition: all 1s;
+	cursor: pointer;
+}
+.indexMain .characterBox section img{
+	width: 100%;
+	display: block;
+	height: 290px;
+	object-fit: cover;
+	transform: scale(1.1);
+	transition: all 1s;
+}
+.indexMain .characterBox section .imgbox{
+	width: 100%;
+	height: 290px;
+	overflow: hidden;
+}
+.indexMain .characterBox .bottom{
+	bottom: 0;
+}
+.indexMain .characterBox .top{
+	top: 0;
+}
+.indexMain .characterBox section > div{
+	padding: 0;
 }
 
 .indexMain .trainBox{
@@ -1102,6 +1148,46 @@ textarea::-ms-input-placeholder{ /*Internet Explorer*/
     height: 10px;
     line-height: 10px;
     left: 0;
+}
+.indexMain .intitleB {
+	width: 194px;
+	height: 60px;
+	display: block;
+	margin: 0 auto;
+	background: url(../img/titlebgB.png) no-repeat;
+	background-size: 100% 100%;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-family: "宋体";
+	text-align: center;
+	line-height: 60px;
+	margin-top: 76px;
+	margin-bottom: 50px;
+	position: relative;
+}
+.indexMain .intitleB  span{
+	width: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: -5px;
+    height: 10px;
+    line-height: 10px;
+    left: 0;
+}
+.indexmore{
+	width: 106px;
+	height: 32px;
+	border: 1px solid #d9d5d2;
+	display: block;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #d5cbcd;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	margin-top: 64px;
 }
 .logobox{
 	font-family: "宋体";
@@ -1477,5 +1563,24 @@ textarea::-ms-input-placeholder{ /*Internet Explorer*/
 	.newsBox section{
 		width: 100%;
 		padding: 0 15px;
+	}
+	.indexMain .characterBox section{
+		width: 100%;
+	}
+	.indexMain .characterBox{
+		height: auto;
+	}
+	.indexMain .characterBox section{
+		height: auto;
+		padding: 0 10px;
+	}
+	.indexmore{
+		margin-bottom: 50px;
+	}
+	.indexMain .characterBox section .imgbox{
+		height: 180px;
+	}
+	.indexMain .characterBox section > div{
+		margin-bottom: 20px;
 	}
 }
