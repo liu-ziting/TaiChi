@@ -53,7 +53,14 @@ header {
 .banner img {
 	width: 100%;
 }
-
+.banner #indexbanner{
+	height: auto;
+}
+.banner #indexbanner img{
+	width: 100%;
+	height: auto;
+	max-height: 500px;
+}
 .banner {
 	margin-bottom: 30px;
 }
@@ -640,6 +647,10 @@ footer .footerRight p {
 	margin-top: 35px;	
 	margin-bottom: 85px;	
 }
+.character video{
+	width: 100%;	
+	height: 100%;	
+}	
 .character > div{
 	height: 368px;
 	width: 100%;
@@ -663,6 +674,9 @@ footer .footerRight p {
 	width: 100%;
 	text-align: right;
 	margin-bottom: 25px;
+}
+.character > div h1:hover{
+	color: #ee2a28;
 }
 .character .textLeft h1{
 	text-align: left;
@@ -902,7 +916,275 @@ footer .footerRight p {
 	margin-top: 10px;
 }
 
+.indexMain{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.indexMain .introduce{
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0;
+	padding-bottom: 72px;
+	font-family: "宋体";
+}
+.indexMain .introduce > div{
+	padding: 0;
+}
+.indexMain .introduce > div:nth-child(1){
+	padding-right: 60px;
+}
+.indexMain .introduce > div:nth-child(2){
+	padding-left: 60px;
+}
+.indexMain .introduce h1{
+	font-size: 30px;
+	color: #656565;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 24px;
+	font-family: "黑体";
+}
+.indexMain .introduce p{
+	color: #616161;
+	font-size: 14px;
+	line-height: 30px;
+	margin-bottom: 0;
+	float: left;
+}
+.indexMain .introduce p:nth-child(5){
+	width: 376px;
+	float: left;
+}
+.indexMain .introduce .qrcode{
+	float: right;
+	width: 115px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.indexMain .introduce .qrcode img{
+	width: 115px;
+	height: 115px;
+	display: block;
+}
+.indexMain .introduce .qrcode p{
+	font-size: 16px;
+	color: #404040;
+	margin-left: 5px;
+}
+.indexMain .introduce label{
+	background-color: #f5f5f5;
+	padding:10px;
+	float: left;
+}
+input:focus, textarea:focus,button:focus{
+    outline: none;
+}
+.indexMain .introduce label:nth-child(1){
+	width: 45%;
+	margin-right: 5%;
+}
+.indexMain .introduce label:nth-child(2){
+	width: 50%;
+}
+.indexMain .introduce label:nth-child(3){
+	width: 100%;
+	margin-top: 22px;
+}
+.indexMain .introduce label > div{
+	float: left;
+	font-size: 14px;
+	color: #505050;
+}
+.indexMain .introduce label > div img{
+	display: block;
+	float: left;
+	margin-right: 10px;
+    margin-top: 6px;
+}
+.indexMain .introduce label > div span{
+	display: block;
+	float: left;
+	height: 24px;
+	line-height: 24px;
+}
+.indexMain .introduce label input{
+	float: left;
+	background-color: inherit;
+	border: none;
+	font-size: 14px;
+	color: #505050;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 10px;
+	width: 125px;
+}
 
+.indexMain .introduce label textarea{
+	width: 100%;
+	height: 120px;
+	font-size: 14px;
+	color: #666666;
+	padding: 0 10px;
+	background-color: inherit;
+	border: none;
+	resize:none
+}
+input::-webkit-input-placeholder{ /*WebKit browsers*/
+	color: #AAAAAA;
+}
+input::-moz-input-placeholder{ /*Mozilla Firefox*/
+	color: #AAAAAA;
+}
+input::-ms-input-placeholder{ /*Internet Explorer*/ 
+	color: #AAAAAA;
+}
+textarea::-webkit-input-placeholder{ /*WebKit browsers*/
+	color: #AAAAAA;
+}
+textarea::-moz-input-placeholder{ /*Mozilla Firefox*/
+	color: #AAAAAA;
+}
+textarea::-ms-input-placeholder{ /*Internet Explorer*/ 
+	color: #AAAAAA;
+}
+.indexMain .introduce form{
+	margin-top: 50px;
+}
+
+.indexMain .introduce .submit{
+	float: right;
+	border: none;
+	background-color: #494949;
+	width: 115px;
+	height: 38px;
+	text-align: center;
+	font-size: 18px;
+	color: #ffffff;
+	margin-top: 15px;
+}
+
+.indexMain .characterBox{
+	width: 100%;
+	height: 688px;
+	background-color: #000000;
+}
+
+.indexMain .trainBox{
+	width: 1170px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.indexMain .intitle {
+	width: 194px;
+	height: 60px;
+	display: block;
+	margin: 0 auto;
+	background: url(../img/titlebg.png) no-repeat;
+	background-size: 100% 100%;
+	color: #505050;
+	font-size: 30px;
+	font-family: "宋体";
+	text-align: center;
+	line-height: 60px;
+	margin-top: 55px;
+	margin-bottom: 50px;
+	position: relative;
+}
+.indexMain .intitle  span{
+	width: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: #767676;
+    position: absolute;
+    bottom: -5px;
+    height: 10px;
+    line-height: 10px;
+    left: 0;
+}
+.logobox{
+	font-family: "宋体";
+	margin-bottom: 50px;
+}
+.logobox h1{
+	font-size: 22px;
+	color: #484443;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+.logobox p{
+	font-size: 16px;
+	color: #666666;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+.logobox img{
+	display: block;
+	margin: 0 auto;	
+}
+
+.newsBox {
+	width: 100%;
+	height: auto;
+	background-color: #f7f7f7;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+.newsBox section{
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+.newsBox section > div{
+	margin: 0;
+	padding: 0;
+}
+.newsBox section img{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	transition: all 5s;
+	margin-top: -50px;
+}
+.newsBox section img:hover{
+	cursor: pointer;
+	transform:rotate(720deg);
+	transition: all 5s;
+}
+.newsBox section ul li h1{
+	font-size: 22px;
+	color: #3a3a3a;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.newsBox section ul li{
+	overflow: hidden;
+}
+.newsBox section ul li h1:hover{
+	color: #ee2a28;
+	cursor: pointer;
+}
+.newsBox section ul li:nth-child(1){
+	margin-bottom: 55px;
+}
+.newsBox section ul li:nth-child(2){
+	margin-top: 55px;
+}
+.newsBox section ul li p{
+	font-size: 14px;
+	color: #6b6b6b;
+	width: 100%;
+	line-height: 30px;
+	-webkit-line-clamp: 5;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
 
 @media (max-width: 1170px) {
 	.main {
@@ -1141,5 +1423,59 @@ footer .footerRight p {
 	}
 	.introduce .linetextL .txbox{
 		margin-top: 30px;
+	}
+	.indexMain{
+		width: 100%;
+		padding: 0 15px;
+	}
+	.indexMain .introduce{
+		width: 100%;
+	}
+	.indexMain .introduce > div:nth-child(1){
+		padding: 0;
+	}
+	.indexMain .introduce > div:nth-child(2){
+		padding: 0;
+	}
+	.indexMain .introduce p:nth-child(5){
+		width: 100%;
+	}
+	.indexMain .introduce .qrcode{
+		float: left;
+		display: none;
+	}
+	.indexMain .introduce label input{
+		padding-left: 0;
+	}
+	.indexMain .introduce form{
+		margin-top: 20px;
+	}
+	.indexMain .introduce h1{
+		margin-bottom: 10px;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.indexMain .introduce label:nth-child(3){
+		margin-top: 10px;
+	}
+	.indexMain .introduce .submit{
+		width: 100%;
+	}
+	.banner #indexbanner{
+		height: 200px;
+	}
+	.banner #indexbanner img{
+		width: 100%;
+		height: 200px;
+	}
+	.indexMain .trainBox{
+		width: 100%;
+	}
+	.character .bg{
+		padding: 25px;
+	}
+	.newsBox section{
+		width: 100%;
+		padding: 0 15px;
 	}
 }
