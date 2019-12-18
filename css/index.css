@@ -470,7 +470,10 @@ footer .footerMiddle img {
 	margin-top: 10px;
 	margin-left: -4px;
 }
-
+footer .footerMiddle div img{
+	width: 20px;
+	margin-right: 10px;
+}
 footer .footerRight {
 	padding-top: 6px;
 }
